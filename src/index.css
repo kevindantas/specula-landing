@@ -23,8 +23,25 @@ h1 {
 
 body {
   /*background: linear-gradient(149deg, #09EAF7 8%, #3d0fce 34%);*/
-  background: radial-gradient(circle farthest-corner at 05px 05px, #09EAF7 5%, #3d0fce 34%, hsl(0, 86%, 43%));
+
 }
 
+
+main {
+  background: radial-gradient(circle farthest-corner at 05px 05px, #09EAF7 5%, #3d0fce 34%, hsl(0, 86%, 43%));
+  transition: 8s filter linear;
+}
+
+main.section1 {
+  filter: hue-rotate(10deg);
+}
+
+main.section2 {
+  filter: hue-rotate(20deg);
+}
+
+main.section3 {
+  filter: hue-rotate(30deg);
+}
 /*09EAF7*/
 /*5727EF*/
