@@ -1,0 +1,9 @@
+main {
+  margin-top: 70px;
+}
+
+main > section {
+  width: 100vw;
+  padding: 16px;
+  height: calc(100vh - 60px);
+}

@@ -1,0 +1,10 @@
+.FirstSlide {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.FirstSlide img {
+  max-width: 400px
+}
